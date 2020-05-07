@@ -2,11 +2,11 @@ package Chapter4;
 
 import java.util.Scanner;
 
-public class DoWhileEx01 {
+public class LoopEx04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int ans = (int) (Math.random() * 100) + 1; //
+		int ans = (int) (Math.random() * 100) + 1; 		
 		Scanner scan = new Scanner(System.in);
 		int input;
 		int cnt = 0;
