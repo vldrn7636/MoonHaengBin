@@ -17,9 +17,7 @@ public class Exam01 {
 		h = (num / 3600);
 		m = ((num % 3600) / 60);
 		s = ((num % 3600) % 60);
-		System.out.println(h + "시 입니다");
-		System.out.println(m + "분 입니다");
-		System.out.println(s + "초 입니다");
+		System.out.println(h + "시 " + m + "분 " + s + "초 입니다");
 		/*
 		 * System.out.print(num/3600 + "시"); // 12345/3600 = 3시
 		 * System.out.print((num%3600)/60 + "분"); // %는 나머지 몫 ex) 10%6 = 4

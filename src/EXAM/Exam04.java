@@ -12,6 +12,7 @@ public class Exam04 {
 		num = scan.nextInt();
 
 		System.out.println((num > 0) ? "양수" : (num < 0) ? "음수" : "0");
+							//조건식			   // true			 // false
 
 	}
 

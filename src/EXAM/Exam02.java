@@ -11,7 +11,7 @@ public class Exam02 {
 		System.out.println("세자리 정수를 입력하세요");
 		num = scan.nextInt();
 
-		System.out.println((num / 100) * 100);
+		System.out.println((num / 100) * 100);	// 백의 자리 이하 뺴기
 		System.out.println(num - (num % 100));
 	}
 

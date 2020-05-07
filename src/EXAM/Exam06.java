@@ -11,7 +11,7 @@ public class Exam06 {
 
 		int num = scan.nextInt();
 
-		System.out.println("필요한 상자의 갯수 : " + ((num % 10 > 0) ? (num / 10) + 1 : num / 10));
+		System.out.println("필요한 상자의 갯수 : " + ((num % 10 > 0) ? (num / 10) + 1 : num / 10)); // 상자엔 최대 10개까지
 
 	}
 

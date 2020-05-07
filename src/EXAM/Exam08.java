@@ -10,7 +10,7 @@ public class Exam08 {
 		Scanner scan = new Scanner(System.in);
 
 		int num = scan.nextInt();
-		int result = (num % 10 == 0) ? num : (((num / 10) + 1) * 10);
+		int result = (num % 10 == 0) ? num : (((num / 10) + 1) * 10);	// num과 같거나 큰 10의 배수 
 
 		System.out.println(result + "-" + num + "=" + (result - num));
 

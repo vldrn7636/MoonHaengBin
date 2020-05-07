@@ -14,7 +14,7 @@ public class Exam05 {
 		char ch = str.charAt(0);
 
 		System.out.println((int) ch);
-		System.out.println((ch >= 'a' && ch <= 'z') ? (char) (ch - 32) : "소문자아님");
+		System.out.println((ch >= 'a' && ch <= 'z') ? (char) (ch - 32) : "소문자아님"); // A=65 a=97 인걸 이용해 소문자를 대문자로 변환
 
 	}
 
